@@ -1,6 +1,6 @@
 package src.view;
 
-import com.Tdsson.util.CMUtility;
+import src.util.CMUtility;
 
 public class CustomerView {
     String listcustomer = "����\t�ձ�\t����\t�绰\t����\n";
@@ -56,7 +56,7 @@ public class CustomerView {
         String name = CMUtility.readString(5,"��");
 
         System.out.println("�Ա�:");
-        char sex = CMUtility.readChar('��');
+        char sex = CMUtility.readChar();
 
         System.out.println("����:");
         int age = CMUtility.readInt(0);
